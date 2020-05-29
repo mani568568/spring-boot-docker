@@ -1,0 +1,11 @@
+Step:1
+======
+docker build -f Dockerfile -t spring-boot-docker .
+
+The above commands starts a docker container.
+
+Step:2
+======
+docker run -p 8080:8080 spring-boot-docker
+
+run app in the container using the above command.
